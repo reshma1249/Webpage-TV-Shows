@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+
+		
+<meta charset="utf-8">
+		
+<title>TV Shows</title>
+		<link href="css/style.css" rel="stylesheet">
+
+<style type="text/css">
+
+label {
+	display: block;
+	margin: 10px;
+	cursor:pointer;
+}
+
+
+label.straight {
+	display: block;
+	width: 150px;
+	float: left;
+	margin: 4px;
+	margin-right:10px;
+	text-align: right;
+}
+
+
+input {
+	display: inline-block;
+	font-family: "Open Sans", "Trebuchet MS", sans-serif;
+	height: 20px;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+	outline: none;
+	border: 2px solid #1C87FF;	
+}
+
+
+body {
+	font-family: "Open Sans", "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	font-weight: 400;
+	background-image: url('img/rag.png');
+	margin:0;
+	padding:0;
+}
+
+
+</style>		
+</head>
+
+<body>
+		
+		
+<div id="mainmenu">
+			
+<div id="wrapper1">
+				
+<div class="logocontainer">
+					
+<img class="center-image" src="img/tvshows_logo.png" alt="tvshowslogo" />
+				
+</div>
+				
+<div class="nav">
+					
+<ul>
+						
+<li><a href="home.html">Home</a></li>
+						
+<li><a href="favorites.html">Favorites</a></li>
+						
+<li><a id="selected" href="contact_us.html">Contact us</a></li>
+					
+</ul>
+				
+</div>
+			
+</div>
+		
+</div>
+		
+		
+<div id="wrapper1" class="allcontent">
+			
+			
+<br>
+			
+			
+<div id="wrapper4">
+				
+<fieldset><legend class="text-center">Contact information</legend>
+					
+<form action="contact_us.html" method="post">
+						
+<label><label for="first_name" class="straight">First name: </label><input type="text" id="first_name" name="first_name" size="20" placeholder="First name"/></label>
+						
+<label><label for="last_name" class="straight">Last name: </label><input type="text" id="last_name" name="last_name" size="20" placeholder="Last name"/></label>
+						
+<label><label for="email" class="straight">Email address: </label><input type="email" id="email" name="email" size="20" placeholder="name@mail.com"/></label>
+						
+<label><label for="phone" class="straight">Phone number: </label><input type="tel" id="phone" name="phone" size="20" placeholder="555-555-5555"/></label>
+						
+<br/>
+
+					
+<p class="text-center">
+							
+<input type="submit"  value="Submit" />
+						
+<input type="reset"  value="Reset" />
+						
+</p>
+					
+</form>
+				
+		</fieldset>
+
+</div>
+							
+		
+</div>
+		
+	
+</body>
+
+
+</html>
